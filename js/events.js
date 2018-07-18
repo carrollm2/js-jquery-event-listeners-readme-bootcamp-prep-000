@@ -1,6 +1,6 @@
 //define functions here
 function getIt(){
-  $('p').on('click').function(){
+  $('p').on('click' , function(){
       alert('Hey!');
   });
 };
@@ -12,9 +12,8 @@ function frameIt(){
 
 $(document).ready(function(){
 
-// call functions here
-//$("p").click();
-  $('p').bind('click', function(){});
-  $('p').trigger('click');
+  getIt();
+
+  frameIt();
 
 });
