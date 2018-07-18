@@ -5,6 +5,10 @@ function getIt(){
   });
 };
 
+function frameIt(){
+  $('img').addClass('tasy');
+};
+
 
 $(document).ready(function(){
 
